@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    margin: 8px auto;
+    width: 100%;
+}
+
+#logo {
+    background-color: coral;
+    color: white;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    border-radius: 15px;
+    opacity: 0.5;
+    line-height: 200px;
+    font-size: 64px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+#body {
+    margin: auto;
+    width: 100%;
+    padding: 14px 0px;
+}
+
+#input_container {
+    width: 800px;
+    margin: auto;
+}
+
+#body input {
+    padding: 12px 24px;
+    width: 700px;
+    height: 48px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 36px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #eee;
+}
+
+#body input:focus {
+    outline-width: 0;
+}
+
+#body span {
+    color: coral;
+    font-size: 60px;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 12px;
+}
+
+#list_container {
+    width: 100%;
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 36px;
+    color: coral;
+    font-weight: bold;
+}
+
+#list_container ul {
+    box-shadow: 8px 8px 8px #eee;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    min-height: 112px;
+}
+
+#list_container li {
+    text-align: left;
+    border-style: solid;
+    border-color: #434343;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    padding: 12px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 36px;
+    color: #434343;
+}
+
+#list_container li:hover {
+    background-color: rgba(74, 200, 60, 0.2);
+}
+
+#alert {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 40vh;
+    bottom: 34px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 8px #eee;
+    
+    padding: 8px 12px;
+    
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    
+    display: none;
+}
